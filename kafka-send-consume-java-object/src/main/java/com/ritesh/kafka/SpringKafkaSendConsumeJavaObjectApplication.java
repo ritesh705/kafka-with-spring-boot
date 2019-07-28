@@ -21,7 +21,8 @@ public class SpringKafkaSendConsumeJavaObjectApplication implements CommandLineR
 	KafkaProducer producer;
 	
 	@Override
-	public void run(String... arg0) throws Exception {
+	public void run(String... arg0) throws Exception
+	{
 		// Send Mary customer
 		Customer mary = new Customer("Mary", 31);
 		producer.send(mary);

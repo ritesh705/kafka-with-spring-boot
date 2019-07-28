@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ritesh.kafka</groupId>
-	<artifactId>KafkaSendConsumeJavaObject</artifactId>
+	<artifactId>kafka-send-consume-java-object</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>KafkaSendConsumeJavaObject</name>
+	<name>kafka-send-consume-java-object</name>
 	<description>Kafka with Spring Boot for sending and receiving Java object.</description>
 
 	<parent>

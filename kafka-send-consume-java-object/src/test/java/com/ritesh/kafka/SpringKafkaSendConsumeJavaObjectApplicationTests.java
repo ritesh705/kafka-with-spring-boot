@@ -1,4 +1,4 @@
-package com.javasampleapproach.kafka;
+package com.ritesh.kafka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
