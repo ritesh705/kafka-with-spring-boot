@@ -8,12 +8,14 @@ import org.springframework.stereotype.Service;
 import com.ritesh.kafka.model.Customer;
 
 @Service
-public class KafkaProducer {
+public class KafkaProducer
+{
+
 	@Autowired
 	private KafkaTemplate<String, Customer> kafkaTemplate;
 	
 	@Value("${kafka.topic}")
-	String kafkaTopic = "test";
+	String kafkaTopic;
 	
 	public void send(Customer customer)
 	{

@@ -18,8 +18,8 @@ import com.ritesh.kafka.model.Customer;
 
 @EnableKafka
 @Configuration
-public class KafkaConsumerConfig {
- 
+public class KafkaConsumerConfig
+{
 	@Value("${kafka.bootstrap-servers}")
 	private String bootstrapServer;
 	

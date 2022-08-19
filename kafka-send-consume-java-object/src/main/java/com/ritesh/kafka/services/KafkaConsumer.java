@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import com.ritesh.kafka.model.Customer;
 
 @Service
-public class KafkaConsumer {
-	
+public class KafkaConsumer
+{
 	@KafkaListener(topics="${kafka.topic}")
     public void processMessage(Customer customer)
 	{
